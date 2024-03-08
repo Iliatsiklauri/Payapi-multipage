@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${publicSans.className} ${DMserif.className} `}>
-        <div className="relative min-h-screen">
+        <div className="bg-[#EDF3F8]">
           <Navbar />
           {children}
           <Footer />
