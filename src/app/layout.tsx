@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${publicSans.className} ${DMserif.className} `}>
-        <div className="bg-[#EDF3F8]">
+        <div className="bg-[#EDF3F8] relative overflow-x-hidden">
           <Navbar />
           {children}
           <Footer />

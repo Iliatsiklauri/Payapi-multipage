@@ -5,16 +5,16 @@ import Schedule from './components/Schedule';
 
 export default function Home() {
   return (
-    <main className="py-8 flex items-center justify-center relative flex-col w-full gap-16">
+    <main className="py-4 flex items-center justify-center flex-col w-full gap-4">
       <img
         src="assets\shared\desktop\bg-pattern-circle.svg"
         alt=""
-        className="absolute top-[-40%] w-full"
+        className="z-20 absolute top-[-4%] w-[100%] rounded-full"
       />
       <img
         src="assets\home\desktop\illustration-phone-mockup.svg"
         alt=""
-        className="h-[328px] ml-8 z-20"
+        className="h-[328px] ml-8 z-30"
       />
       <div className="w-full flex flex-col items-center justify-center gap-6">
         <h2 className="text-[#36536B] text-3xl font-semibold text-center">

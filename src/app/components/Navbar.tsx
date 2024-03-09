@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="flex justify-around items-center h-20 gap-32">
+    <div className="flex justify-around items-center h-20 gap-32 z-50 relative w-full">
       <Link href={'/'}>
         <img src="assets\shared\desktop\logo.svg" alt="" />
       </Link>
